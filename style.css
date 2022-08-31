@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.container {
+  margin: 10px;
+  padding: 10px;
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (max-width: 650px) {
+  .container {
+    font-size: 13px;
+    padding: 2px;
+  }
+
+  .container .info-text {
+    margin-left: 20px;
+  }
+  .container .photo {
+    width: 130px;
+  }
+}
+
+body {
+  background: rgb(231, 231, 231);
+  margin: 20px; 
+
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+
+.photo {
+  width: 160px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px rgba(30, 30, 30, 0.25);
+}
+
+.info-text {
+  margin-left: 50px;
+}
+
+.info-text p {
+  font-style: italic;
+  color: rgb(70, 70, 70);
+  margin: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration:underline;
+}
+
+a:visited {
+  color: #b357b8;
+}
+
+h1 {
+  color: rgb(177, 28, 28);
+}
+
+h3 {
+  color: rgb(9, 9, 177);
+}
+
+.list {
+  padding: 0px 25px;
+}
+
+.list li{
+  margin-bottom: 4px;
+}
+
+
+.card-1 {
+  border: 3px solid lightblue;
+  background: lightblue;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+
+.card-2 {
+  border: 3px solid lightgreen;
+  background: lightgreen;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+
+.card-3 {
+  border: 3px solid lightsalmon;
+  background: lightsalmon;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 8px;
+}
+.block label {
+  display: block;
+}
+
+.block-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+
+.block-row .block {
+  display: inline-block;
+  margin-right: 30px;
+  width: 50%;
+}
+
+.block-row .block:last-child {
+  margin-right: 0px;
+}
+
+.block input, .block textarea {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  padding: 5px 0px 7px;
+  font-family: inherit;
+}
+
+.btn {
+  background-color: lightgrey;
+  color: #000; 
+  font-family: inherit;
+  padding: 3px 4px;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: #fff;
+}
+
+.table {
+  width: 100%;  
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.table tr:nth-child(odd){
+  background: rgb(89, 211, 89);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 40px;
+  margin-bottom: 15px;
+  background: lightgrey;
+  width: 800px;
+}
+
+.navbar ul {
+  margin: 0px;
+  padding: 0px 15px;
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.navbar ul li:hover{
+  background: rgb(238, 238, 238);
+  
+}
+
+.navbar ul li:last-child {
+  margin-right: 0px;
+}
